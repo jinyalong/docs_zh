@@ -1,0 +1,58 @@
+---
+title: 路线图
+description: 我们对模型上下文协议的演变计划（2025年上半年）
+---
+
+模型上下文协议正在迅速发展。本页面概述了我们对**2025年上半年**关键优先事项和未来方向的当前思考，尽管随着项目的发展，这些可能会发生显著变化。
+
+<Note>这里提出的想法不是承诺——我们可能会以不同于描述的方式解决这些挑战，或者有些可能根本不会实现。这也不是一个_详尽_的列表；我们可能会纳入未在此提及的工作。</Note>
+
+我们鼓励社区参与！每个部分都链接到相关讨论，您可以在其中了解更多信息并贡献您的想法。
+
+## 远程MCP支持
+
+我们的首要任务是改进[远程MCP连接](https://github.com/modelcontextprotocol/specification/discussions/112)，允许客户端通过互联网安全地连接到MCP服务器。关键举措包括：
+
+- [**认证与授权**](https://github.com/modelcontextprotocol/specification/discussions/64)：添加标准化的认证功能，特别关注OAuth 2.0支持。
+
+- [**服务发现**](https://github.com/modelcontextprotocol/specification/discussions/69)：定义客户端如何发现和连接到远程MCP服务器。
+
+- [**无状态操作**](https://github.com/modelcontextprotocol/specification/discussions/102)：考虑MCP是否也可以涵盖无服务器环境，在这些环境中它们需要大部分是无状态的。
+
+## 参考实现
+
+为了帮助开发人员使用MCP，我们希望提供以下文档：
+
+- **客户端示例**：全面的参考客户端实现，展示所有协议功能
+- **协议起草**：简化提议和纳入新协议功能的过程
+
+## 分发与发现
+
+展望未来，我们正在探索使MCP服务器更易于访问的方法。我们可能调查的一些领域包括：
+
+- **包管理**：MCP服务器的标准化打包格式
+- **安装工具**：简化MCP客户端的服务器安装
+- **沙盒**：通过服务器隔离提高安全性
+- **服务器注册表**：用于发现可用MCP服务器的通用目录
+
+## 代理支持
+
+我们正在扩展MCP对[复杂代理工作流](https://github.com/modelcontextprotocol/specification/discussions/111)的支持，特别关注：
+
+- [**分层代理系统**](https://github.com/modelcontextprotocol/specification/discussions/94)：通过命名空间和拓扑意识改进对代理树的支持。
+
+- [**交互式工作流**](https://github.com/modelcontextprotocol/specification/issues/97)：更好地处理用户权限和信息请求跨代理层级的方式，以及将输出发送给用户而不是模型的方法。
+
+- [**流式结果**](https://github.com/modelcontextprotocol/specification/issues/117)：来自长时间运行的代理操作的实时更新。
+
+## 更广泛的生态系统
+
+我们还致力于：
+
+- **社区主导的标准开发**：培育一个协作的生态系统，所有AI提供商都可以通过平等参与和共享治理帮助塑造MCP作为开放标准，确保它满足多样化AI应用和用例的需求。
+- [**额外的模态**](https://github.com/modelcontextprotocol/specification/discussions/88)：扩展到文本之外以支持音频、视频和其他格式。
+- [**标准化**] 考虑通过标准化机构进行标准化。
+
+## 参与进来
+
+我们欢迎社区参与塑造MCP的未来。访问我们的[GitHub讨论](https://github.com/orgs/modelcontextprotocol/discussions)加入对话并贡献您的想法。
