@@ -14,7 +14,7 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "开始使用",
             "pages": [
               "introduction",
               {
@@ -30,7 +30,7 @@
             ]
           },
           {
-            "group": "Tutorials",
+            "group": "教程",
             "pages": [
               "tutorials/building-mcp-with-llms",
               "docs/tools/debugging",
@@ -38,7 +38,7 @@
             ]
           },
           {
-            "group": "Concepts",
+            "group": "概念",
             "pages": [
               "docs/concepts/architecture",
               "docs/concepts/resources",
@@ -50,7 +50,7 @@
             ]
           },
           {
-            "group": "Development",
+            "group": "发展",
             "pages": [
               "development/updates",
               "development/roadmap",
