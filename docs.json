@@ -123,7 +123,22 @@
   },
   "seo": {
     "metatags": {
-      "og:image": "https://raw.githubusercontent.com/modelcontextprotocol/docs/2eb6171ddbfeefde349dc3b8d5e2b87414c26250/images/og-image.png"
+      "og:site_name": "Model Context Protocol 中文文档",
+      "og:title": "Model Context Protocol - LLM 上下文标准化协议",
+      "og:description": "MCP 是一个开放协议，它为应用程序向 LLM 提供上下文的方式进行了标准化。你可以将 MCP 想象成 AI 应用程序的 USB-C 接口。",
+      "og:url": "https://docs.modelcontextprotocol.io/zh",
+      "og:image": "https://raw.githubusercontent.com/modelcontextprotocol/docs/2eb6171ddbfeefde349dc3b8d5e2b87414c26250/images/og-image.png",
+      "og:locale": "zh_CN",
+      "og:logo": "https://raw.githubusercontent.com/modelcontextprotocol/docs/2eb6171ddbfeefde349dc3b8d5e2b87414c26250/images/logo.png",
+      "article:publisher": "https://github.com/modelcontextprotocol",
+      "twitter:title": "Model Context Protocol - LLM 上下文标准化协议",
+      "twitter:description": "MCP 是一个开放协议，它为应用程序向 LLM 提供上下文的方式进行了标准化。你可以将 MCP 想象成 AI 应用程序的 USB-C 接口。",
+      "twitter:url": "https://docs.modelcontextprotocol.io/zh",
+      "twitter:image": "https://raw.githubusercontent.com/modelcontextprotocol/docs/2eb6171ddbfeefde349dc3b8d5e2b87414c26250/images/og-image.png",
+      "twitter:site": "@modelcontextprotocol",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "robots": "index, follow"
     },
     "indexing": "navigable"
   },
